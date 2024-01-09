@@ -93,7 +93,7 @@ input::placeholder {
 
 @media screen and (max-width:480px) {
     .container {
-        width: 90%;
+        width: 70%;
         margin: auto;
     }
 
@@ -101,6 +101,25 @@ input::placeholder {
         width: 2.5rem;
         height: 2.7em;
     }
-    input{font-size: 17px;}
+
+    input {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width:392px) {
+    .boxes {
+        margin: 5px;
+    }
+
+    input {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+    }
 
 }
