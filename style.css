@@ -19,6 +19,7 @@ body {
     height: min-content;
     background: #0d1031b3;
     border-radius: 15px;
+    box-shadow: 5px 5px 1px #9b9dad;;
 }
 
 .boxes {
@@ -36,6 +37,7 @@ input {
     text-align: right;
     font-weight: bold;
     color: #ffdfef;
+    box-shadow: 2px 2px 10px lightslategrey, -2px -2px 10px lightslategray;
 }
 
 button {
@@ -49,11 +51,15 @@ button {
     cursor: pointer;
     background: #ffffffbf;
 }
-
+.active:hover {
+    color: #fff;
+    background: #3f0707d0;
+}
 button:hover {
     color: #fff;
     background: #000;
 }
+
 
 input::placeholder {
     color: white;
@@ -67,4 +73,12 @@ input::placeholder {
 .active {
     background: #8b7876;
     color: #fff;
+}
+
+
+
+@media screen and (max-width:980px){
+    body{background: none;}
+    body{background: radial-gradient(lightslategrey,#606075,#140707);}
+    
 }
